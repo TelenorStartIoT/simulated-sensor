@@ -1,0 +1,19 @@
+{
+  "name": "mic-simulated-mqtt-device",
+  "version": "1.0.0",
+  "description": "Simulate random data and send to a Thing in Telenor Managed IoT Cloud (MIC).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "telenor",
+    "mic"
+  ],
+  "author": "Pontus Edvard Aurdal <pontus.aurdal@telenor.com>",
+  "license": "ISC",
+  "dependencies": {
+    "aws-iot-device-sdk": "^2.2.1",
+    "mqtt": "^3.0.0"
+  }
+}
